@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Click the button to get a time-based wishing</p>
+
+<button onclick="myFunction()">Click</button>
+
+<p id="demo"></p>
+
+<script>
+  function myFunction() 
+	{
+          var wish;
+           var x = new Date().getHours();
+           if (x < 10) 
+	{
+           wish = "Good morning have a nice day🙂";
+        }     
+         else if (x < 20) 
+        {
+        wish = "Good evening😎";
+        } 
+         else {
+        wish = "Good night😴";
+        }
+     document.getElementById("demo").innerHTML = wish;
+        }
+</script>
+
+</body>
+</html>
