@@ -1,0 +1,19 @@
+<html>
+<head>
+<title>even number</title>
+<h1> even numbers b/w given number in loop</h1>
+<body>
+
+<script type="text/javascript">
+var i;
+for (i = 0; i < 100; i++)
+if ((i % 2) == 0)
+{
+
+  document.writeln(i);
+
+}
+</script>
+</body>
+</head>
+</html>
